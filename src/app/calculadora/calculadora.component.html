@@ -1,0 +1,20 @@
+<label for="teste">CALCULADORA</label><br>
+<div class='divCalculadora'>
+    <app-tela [valorTela]="controle"></app-tela>
+    <app-botao [valorBotao]="'8'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'7'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'9'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'/'" (clickBotao)="calcular($event)"></app-botao><br>
+    <app-botao [valorBotao]="'4'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'5'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'6'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'*'" (clickBotao)="calcular($event)"></app-botao><br>
+    <app-botao [valorBotao]="'1'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'2'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'3'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'-'" (clickBotao)="calcular($event)"></app-botao><br>
+    <app-botao [valorBotao]="'0'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'.'" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'='" (clickBotao)="calcular($event)"></app-botao>
+    <app-botao [valorBotao]="'+'" (clickBotao)="calcular($event)"></app-botao>
+</div>

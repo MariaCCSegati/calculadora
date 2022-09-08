@@ -1,0 +1,10 @@
+<div class="pai" *ngIf='valorBotao != "="'>
+    <div class="botao" (click)="clicou()">
+        {{valorBotao}}
+    </div>
+</div>
+<div class="pai" *ngIf='valorBotao == "="'>
+    <div class="botao" (click)='clicou()'>
+        {{valorBotao}}
+    </div>
+</div>
