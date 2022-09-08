@@ -36,5 +36,9 @@ export class CalculadoraComponent implements OnInit {
       this.controle = this.controle + evento;
       this.controleValores = this.controleValores + evento;
     }
+    if(evento == 'delete'){
+      this.controle = '';
+      this.controleValores = '';
+    }
   }
 }
